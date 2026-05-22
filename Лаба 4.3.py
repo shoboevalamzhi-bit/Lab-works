@@ -1,5 +1,4 @@
 from functools import lru_cache
-
 @lru_cache(maxsize=None)
 def fibonacci_cache(n):
     if n < 0:
